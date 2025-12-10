@@ -77,6 +77,114 @@ export const shortcuts: ShortcutData[] = [
     shortcut: "Shift + Enter",
     notes: "Enter submits by default; configurable in keybindings.json.",
     category: 'dev'
+  },
+  {
+    app: "Discord",
+    shortcut: "Shift + Enter",
+    notes: "Enter sends immediately. Can be changed in Settings > Text & Images.",
+    category: 'chat'
+  },
+  {
+    app: "Notion",
+    shortcut: "Shift + Enter",
+    notes: "Creates a line break within a block. Enter creates a new block.",
+    category: 'dev'
+  },
+  {
+    app: "Figma Comments",
+    shortcut: "Shift + Enter",
+    notes: "Enter submits the comment immediately.",
+    category: 'dev'
+  },
+  {
+    app: "Linear",
+    shortcut: "Shift + Enter",
+    notes: "Supports Markdown. Ctrl/Cmd + Enter submits.",
+    category: 'dev'
+  },
+  {
+    app: "Jira",
+    shortcut: "Shift + Enter",
+    notes: "In quick edit mode. Full editor mode uses Enter normally.",
+    category: 'dev'
+  },
+  {
+    app: "WhatsApp Web",
+    shortcut: "Shift + Enter",
+    notes: "Enter sends the message. No settings to change this.",
+    category: 'chat'
+  },
+  {
+    app: "Telegram Desktop",
+    shortcut: "Shift + Enter",
+    notes: "Configurable in settings to swap Enter/Ctrl+Enter behavior.",
+    category: 'chat'
+  },
+  {
+    app: "iMessage (macOS)",
+    shortcut: "Option + Enter",
+    notes: "Enter sends by default. Also works with Ctrl + Enter.",
+    category: 'chat'
+  },
+  {
+    app: "Gmail Compose",
+    shortcut: "Enter",
+    notes: "Regular Enter creates newline. Ctrl/Cmd + Enter sends.",
+    category: 'web'
+  },
+  {
+    app: "Outlook Web",
+    shortcut: "Enter",
+    notes: "Shift + Enter also works. Ctrl + Enter sends.",
+    category: 'web'
+  },
+  {
+    app: "Twitter/X DMs",
+    shortcut: "Shift + Enter",
+    notes: "Enter sends immediately in DMs.",
+    category: 'chat'
+  },
+  {
+    app: "LinkedIn Messages",
+    shortcut: "Shift + Enter",
+    notes: "Enter sends the message.",
+    category: 'chat'
+  },
+  {
+    app: "Obsidian",
+    shortcut: "Enter",
+    notes: "Normal text editing. Shift + Enter creates a soft line break.",
+    category: 'dev'
+  },
+  {
+    app: "Confluence",
+    shortcut: "Shift + Enter",
+    notes: "Enter creates new paragraph. Shift + Enter for line break.",
+    category: 'dev'
+  },
+  {
+    app: "Trello Comments",
+    shortcut: "Shift + Enter",
+    notes: "Enter submits the comment.",
+    category: 'dev'
+  },
+  {
+    app: "Asana Comments",
+    shortcut: "Shift + Enter",
+    notes: "Tab + Enter submits. Plain Enter also works for newline.",
+    category: 'dev'
+  },
+  {
+    app: "Facebook Messenger",
+    shortcut: "Shift + Enter",
+    notes: "Enter sends. Configurable in settings.",
+    category: 'chat'
+  },
+  {
+    app: "Zoom Chat",
+    shortcut: "Shift + Enter",
+    notes: "Enter sends immediately during meetings.",
+    category: 'chat'
   }
 ];
 
@@ -86,7 +194,8 @@ export const allShortcuts = [
   "Shift + Enter",
   "Alt + Enter",
   "Enter",
-  "Ctrl + Enter"
+  "Ctrl + Enter",
+  "Option + Enter"
 ];
 
 export const embarrassingMessages: Record<string, string[]> = {
